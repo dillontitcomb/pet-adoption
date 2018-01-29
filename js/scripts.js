@@ -1,5 +1,13 @@
-<<<<<<< HEAD
-// user interface logic
+//Business logic
+
+function Dog(name, breed, age, color) {
+  this.name = name;
+  this.breed = breed;
+  this.age = age;
+  this.color = color;
+
+
+//User Interface Logic
 $(document).ready(function() {
   $("form#new-dog").submit(function(event) {
     event.preventDefault();
@@ -19,12 +27,3 @@ $(document).ready(function() {
 
   });
 });
-=======
-
-function Dog(name, breed, age, color) {
-  this.name = name;
-  this.breed = breed;
-  this.age = age;
-  this.color = color;
-}
->>>>>>> 86f11f5f3df42c91aab7aee2d579106a87679bc9
