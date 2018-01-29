@@ -4,3 +4,19 @@ background-position: center;
 background-repeat: repeat-y;
 background-size: 300px 225px;
 }
+
+.jumbotron {
+  color: snow;
+}
+
+body {
+  background-image: url("http://laoblogger.com/images/clipart-silhouette-dog-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Georgia, serif;
+
+}
+
+h3{
+  color: #847637
+}
