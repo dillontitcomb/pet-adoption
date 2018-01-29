@@ -5,6 +5,7 @@ background-repeat: repeat-y;
 background-size: 300px 225px;
 }
 
+
 .jumbotron {
   color: snow;
 }
@@ -19,4 +20,57 @@ body {
 
 h3{
   color: #847637
+}
+
+h4 {
+  text-align: center;
+
+}
+
+.buddyinfo {
+  display: none;
+}
+
+.maxinfo {
+  display: none;
+}
+
+.oscarinfo {
+  display: none;
+}
+
+.tobyinfo {
+  display: none;
+}
+
+.frankieinfo {
+  display: none;
+}
+
+.jackinfo {
+  display: none;
+}
+
+.rubyinfo {
+  display: none;
+}
+
+.cocoinfo {
+  display: none;
+}
+
+#petpicture1 {
+  height: 200px;
+background-position: center;
+background-repeat: repeat-y;
+background-size: 300px 225px;
+}
+
+#show-details {
+  display: none;
+}
+
+li:hover {
+  color: blue;
+  cursor: pointer;
 }
