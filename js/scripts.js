@@ -9,7 +9,7 @@ $(document).ready(function() {
     var newDog = new Dog (dogName, dogAge, dogBreed, dogColor);
 
 
-  $(".contact").last().click(function() {
+  $(".pet").last().click(function() {
     $("#show-pet").show();
     $("#show-pet h2").text(newDog.name);
     $(".age-name").text(newDog.age);
