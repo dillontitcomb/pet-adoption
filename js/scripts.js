@@ -34,3 +34,59 @@ $(document).ready(function() {
   // });
   });
 });
+
+$(document).ready(function() {
+  $(".clickable").click(function() {
+    $(".buddypicture").toggle();
+    $(".buddyinfo").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable1").click(function() {
+    $(".maxpicture").toggle();
+    $(".maxinfo").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable2").click(function() {
+    $(".oscarpicture").toggle();
+    $(".oscarinfo").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable3").click(function() {
+    $(".tobypicture").toggle();
+    $(".tobyinfo").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable4").click(function() {
+    $(".frankiepicture").toggle();
+    $(".frankieinfo").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable5").click(function() {
+    $(".jackpicture").toggle();
+    $(".jackinfo").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable6").click(function() {
+    $(".rubypicture").toggle();
+    $(".rubyinfo").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable7").click(function() {
+    $(".cocopicture").toggle();
+    $(".cocoinfo").toggle();
+  });
+});

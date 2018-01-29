@@ -4,3 +4,48 @@ background-position: center;
 background-repeat: repeat-y;
 background-size: 300px 225px;
 }
+
+h4 {
+  text-align: center;
+
+}
+
+.buddyinfo {
+  display: none;
+}
+
+.maxinfo {
+  display: none;
+}
+
+.oscarinfo {
+  display: none;
+}
+
+.tobyinfo {
+  display: none;
+}
+
+.frankieinfo {
+  display: none;
+}
+
+.jackinfo {
+  display: none;
+}
+
+.rubyinfo {
+  display: none;
+}
+
+.cocoinfo {
+  display: none;
+}
+
+#petpicture1 {
+  height: 200px;
+background-position: center;
+background-repeat: repeat-y;
+background-size: 300px 225px;
+
+}
