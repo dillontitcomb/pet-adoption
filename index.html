@@ -6,38 +6,38 @@
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Pet Adoption</title>
-
-    <body>
+  <body>
    <div class="container">
      <h1>Pet Adoption</h1>
-
      <div class="row">
        <div class="col-md-6">
          <h2>Add Pets:</h2>
-         <form id="new-pet">
+         <form id="new-dog">
            <div class="form-group">
-             <label for="new-pet-name">Pet name</label>
-             <input type="text" class="form-control" id="new-pet-name">
+             <label for="new-dog-name">Pet name</label>
+             <input type="text" class="form-control" id="new-dog-name">
+           </div>
+           <div class="form-group">
+             <label for="new-age-name">Age</label>
+             <input type="text" class="form-control" id="new-age-name">
            </div>
            <div class="form-group">
              <label for="new-breed-name">Breed</label>
              <input type="text" class="form-control" id="new-breed-name">
            </div>
-
-           <button type="submit" class="btn">Add</button>
+           <div class="form-group">
+             <label for="new-color-name">Color</label>
+             <input type="text" class="form-control" id="new-color-name">
+           </div>
+           <button type="submit" class="button btn-success">Add</button>
          </form>
-
-         <h2>Pet</h2>
-         <ul id="contacts">
-
-         </ul>
        </div>
        <div class="col-md-6">
          <div id="show-pet">
            <h2></h2>
-
-           <p>First name: <span class="pet-name"></span></p>
-           <p>Last name: <span class="breed-name"></span></p>
+           <p>Age: <span class="age-name"></span></p>
+           <p>Breed: <span class="breed-name"></span></p>
+           <p>Color: <span class="color-name"></span></p>
          </div>
        </div>
      </div>
